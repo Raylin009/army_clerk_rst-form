@@ -1,21 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-
-function RSTQuestionFrom() {
-  return (
-    <div>
-      <h1>Question 1</h1>
-      <h1>Question 2</h1>
-    </div>
-  )
-}
+import Question from './Components/QuestionCard.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-          <RSTQuestionFrom />
+          <Question />
         <a
           className="App-link"
           href="https://reactjs.org"
