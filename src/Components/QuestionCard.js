@@ -26,10 +26,22 @@ const Question = () => {
       >
         Add 1
       </Button>
+      <h2 style={{color: "cornflowerblue"}}>872nd RST Form</h2>
       <form className={classes.root} noValidate autoComplete="off">
-        <TextField id="standard-basic" label="Standard" />
-        <TextField id="filled-basic" label="Filled" variant="filled" />
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <TextField id="standard-basic" label="Last Name" variant="outlined"/>
+        <TextField id="filled-basic" label="First Name" variant="outlined" />
+        <TextField id="outlined-basic" label="Middle Initial" variant="outlined" />
+        <TextField id="outlined-basic" label="Grade" variant="outlined" />
+        <TextField id="outlined-basic" label="RST Dates" variant="outlined" />
+        <TextField id="outlined-basic" label="Why can't you come to drill?" variant="outlined" />
+        <TextField id="outlined-basic" label="When are you making it up?" variant="outlined" />
+        <TextField id="outlined-basic" label="what are you doing do to make up?" variant="outlined" />
+        <TextField id="outlined-basic" label="Who will supervise your make up?" variant="outlined" />
+
+
+
+        
+
       </form>
     </div>
   )
